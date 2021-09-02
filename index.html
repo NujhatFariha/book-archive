@@ -10,17 +10,25 @@
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <main>
-        <h2 class="text-center mt-4">Find Your Favourite <span class="">Books</span></h2>
+
+<body style="background-color: rgb(229, 231, 233);">
+    <main class="container">
+        <h2 class="text-center mt-5 fw-bold">Welcome to <span class="fs-2 heading-style">Book Archive</span></h2>
+
         <!-- search area -->
         <section>
-            <div class="input-group mb-3 mt-4 w-50 mx-auto rounded">
-                <input id="search-field" type="text" class="form-control" placeholder="search for the book that you want" aria-label="search" aria-describedby="button-addon2">
-                <button onclick="searchBook()" class="button-style" type="button" id="button-addon2">search</button>
+            <div class="input-group mb-3 mt-4 w-50 mx-auto rounded-3">
+                <input id="search-field" type="text" class="form-control" placeholder="Search the book you want "
+            aria-label="search" aria-describedby="button-addon2">
+        <button onclick= "searchBook()" class="btn button-style rounded-3 ms-1" type="button">search</button>
+              </div>
+              <div>
+                <h5 class="text-center">Result Found : <span id="total-search-result">0</span> </h5>
               </div>
         </section>
 
+        <!-- search result -->
+    <div id="search-result" class="row row-cols-1 row-cols-md-3 g-5 text-center"> </div>
     </main>
     <script src="js/app.js"></script>
 </body>

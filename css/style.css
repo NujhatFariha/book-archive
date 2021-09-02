@@ -1,10 +1,13 @@
+
 .button-style{
     color: white;
-    font-weight: 600;
-    background-color: rgb(35, 7, 73);
+    background-color: teal;
     border: none;
-    border-radius: 15%;
-    padding: 10px;
+    border-radius: 20%;
+    padding: 3px 10px 5px 10px;
     font-size: 18px;
+}
 
+.heading-style{
+    color: rgb(28, 53, 87);
 }
