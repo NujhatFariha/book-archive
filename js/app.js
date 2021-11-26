@@ -53,3 +53,13 @@ const searchBook = () => {
             searchField.value = '';
         });
 }
+
+
+
+<img class="product-image" src=${image}></img>
+      </div>
+      <h3>${product.title}</h3>
+      <p><span class="fw-bold"> Catagory : <span class="fw-normal"> ${product.category} </p>
+      <p><span class="fw-bold"> Ratings : <span class="fw-normal"> ${product.rating.rate} </p>
+      <p><span class="fw-bold"> Rated By : <span class="fw-normal"> ${product.rating.count} people </p>
+      <h2>Price: $ ${product.price}</h2>
